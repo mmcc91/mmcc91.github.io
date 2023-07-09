@@ -17,6 +17,15 @@ header{
     font-style: bold;
 }
 
+footer{
+    color: black#0c4d3f ;
+    font-style: italic;
+    text-align: center;
+    font-size: 5px;
+    padding-bottom: 10px;
+    font-style: bold;
+}
+
 caption{
     margin: 2px;
     text-align:left;
@@ -75,7 +84,7 @@ footer{
     }
 
 
-.premierArticle {
+.Article {
     outline: 1px solid #000;
     padding: 10px;
     border-radius: 24px;
