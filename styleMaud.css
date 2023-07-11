@@ -5,10 +5,10 @@ body {
     font-family: 'Nanum Brush Script', cursive;
     font-size: 24px;
     text-align: center;
-    
 }
+
 header{
-    color: #0c4d3f ;
+    color: rgb(128, 100, 128) ;
     font-style: italic;
     text-decoration: underline;
     text-align: center;
@@ -18,7 +18,7 @@ header{
 }
 
 footer{
-    color: black#0c4d3f ;
+    color: rgb(128, 100, 128) ;
     font-style: italic;
     text-align: center;
     font-size: 5px;
@@ -33,13 +33,14 @@ caption{
 }
 
 th,tr{
-    border:1px solid black;
+    border:1px solid rgb(128, 100, 128);
     padding: 15px;
     text-decoration: underline;
     color: #000;
 }
 
 table{
+    background-color: rgb(128, 100, 128);
     border-collapse: collapse;
     margin: auto;
     color: #000;
@@ -78,7 +79,7 @@ footer{
 .premiereLigne {
     padding: 20px;
      margin : 20px ;
-     color: aqua;
+     color: rgb(128, 100, 128)
      text-align:center ;
      font-size : 56px;
     }
