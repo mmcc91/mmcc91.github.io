@@ -58,7 +58,7 @@ color: black;
 }
 
 footer{
-    position: absolute;
+    position:relative;
     font-size: 12px;
     padding: 1px;
     bottom: 0;
