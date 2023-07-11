@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg,#8b1ec5,#cf86e0);
+    background: linear-gradient(90deg,#eaeaec,#c9d1d3);
     font-family: 'Manrope', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nanum Brush Script', cursive;
@@ -85,10 +85,11 @@ footer{
 
 
 .Article {
+    background-color: rgb(128, 100, 128);
     outline: 1px solid #000;
     padding: 10px;
     border-radius: 24px;
     font-family: "Lucida Handwriting", cursive;
-    color:aquamarine;
+    color:rgb(19, 20, 20);
     box-sizing: border-box;
 }
