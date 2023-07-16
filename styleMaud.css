@@ -57,7 +57,7 @@ caption {
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center;
-    flex: ;
+
 }
 
 
@@ -118,6 +118,7 @@ footer {
     box-sizing: border-box;
 }
  
+/* */
 .rowPageIndex {
     display: flex;
 }
