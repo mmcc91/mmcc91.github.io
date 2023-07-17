@@ -5,7 +5,7 @@ body {
     font-family: 'Nanum Brush Script', cursive;
     font-size: 24px;
     text-align: center;
-    
+
 }
 
 header {
@@ -32,32 +32,12 @@ caption {
     text-align: left;
 }
 
-.barremenu {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 150px;
-    grid-template-rows: 75px;
-    gap: 1px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(128, 100, 128);
-    outline: 1px solid #000;
-    padding: 25px;
-    border-radius: 25px;
-    font-family: "Lucida Handwriting", cursive;
-    font-size: 20px;
-    color: rgb(19, 20, 20);
-    box-sizing: border-box;
-    margin: auto;
-    align-items: center;
-}
-
 .main {
     display: flex;
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center;
-
+    object-fit: contain;
 }
 
 
@@ -67,18 +47,6 @@ table {
     margin: auto;
     color: #000;
 
-}
-
-a {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-.main {
-    object-fit: contain;
 }
 
 footer {
@@ -109,7 +77,7 @@ footer {
 
 
 .Article {
-    background-color: rgb(128, 100, 128);
+    background-color: #8c668c;
     outline: 1px solid #000;
     padding: 10px;
     border-radius: 24px;
@@ -117,16 +85,37 @@ footer {
     color: rgb(19, 20, 20);
     box-sizing: border-box;
 }
- 
-/* */
+
+.barremenu {
+    display: flex;
+    gap: 1px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8c668c;
+    margin: 10px 0;
+    outline: 1px solid #000;
+    border-radius: 25px;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 20px;
+    color: rgb(19, 20, 20);
+    box-sizing: border-box;
+    margin: auto;
+
+}
+/*  tester sur test2*/
 .rowPageIndex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .columnPageIndex {
     display: flex;
     flex-direction: column;
     margin: 0 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .contentPageIndex {
@@ -137,8 +126,8 @@ footer {
     margin: 10px 0;
     outline: 1px solid #000;
     border-radius: 25px;
-
 }
+
 .presentationPageIndex {
     width: 300px;
     height: 500px;
@@ -158,5 +147,12 @@ footer {
     outline: 1px solid #000;
     padding: 25px;
     border-radius: 25px;
-    
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
