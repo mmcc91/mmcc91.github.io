@@ -1,11 +1,8 @@
 body {
     background: linear-gradient(90deg, #eaeaec, #c9d1d3);
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Nanum Brush Script', cursive;
     font-size: 24px;
     text-align: center;
-
 }
 
 header {
@@ -77,28 +74,28 @@ footer {
 
 
 .Article {
-    background-color: #8c668c;
-    outline: 1px solid #000;
+    background-color: rgb(203, 193, 203);
+    outline: 1px solid #a14082;
     padding: 10px;
     border-radius: 24px;
     font-family: "Lucida Handwriting", cursive;
-    color: rgb(19, 20, 20);
+    color: rgb(26, 5, 22);
     box-sizing: border-box;
 }
 
 .barremenu {
     display: flex;
+    background-color: rgb(203, 193, 203);
+    color: rgb(19, 20, 20);
     gap: 1px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #8c668c;
     margin: 10px 0;
     outline: 1px solid #000;
     border-radius: 25px;
     font-family: "Lucida Handwriting", cursive;
     font-size: 20px;
-    color: rgb(19, 20, 20);
     box-sizing: border-box;
     margin: auto;
 
@@ -150,9 +147,14 @@ footer {
 }
 
 a {
-    color: black;
+    color: rgb(39, 4, 33);
 }
 
 a:visited {
     color: black;
 }
+
+
+
+
+
