@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, #eaeaec, #c9d1d3);
+  
     font-family: 'Nanum Brush Script', cursive;
     font-size: 24px;
     text-align: center;
@@ -43,7 +43,6 @@ table {
     border-collapse: collapse;
     margin: auto;
     color: #000;
-
 }
 
 footer {
@@ -98,9 +97,26 @@ footer {
     font-size: 20px;
     box-sizing: border-box;
     margin: auto;
-
 }
+
 /*  tester sur test2*/
+
+nav a:hover{
+    background-color:#a775a2;
+    border-radius: 5px;
+    color: #fff;
+    transform: scale(1.05);
+    display: block;
+}
+
+.sous{
+    display:none;
+}
+
+.show{
+    display:inherit;
+}
+
 .rowPageIndex {
     display: flex;
     align-items: center;
@@ -123,6 +139,7 @@ footer {
     margin: 10px 0;
     outline: 1px solid #000;
     border-radius: 25px;
+    background: rgb(203, 193, 203);
 }
 
 .presentationPageIndex {
@@ -134,8 +151,8 @@ footer {
     padding: 15px;
     color: #562454;
     font-size: 25px;
+    background: rgb(203, 193, 203);
 }
-
 
 .contactPageIndex {
     font-size: 25px;
@@ -144,17 +161,31 @@ footer {
     outline: 1px solid #000;
     padding: 25px;
     border-radius: 25px;
+    background: rgb(203, 193, 203);
 }
-
+.box{
+    background-color: rgb(203, 193, 203);
+    padding: 10px;
+    font-family: "Lucida Handwriting", cursive;
+    color: rgb(26, 5, 22);
+    box-sizing: border-box;
+}
 a {
-    color: rgb(39, 4, 33);
+    color: #562454;
 }
 
 a:visited {
-    color: black;
+    color: #562454;
 }
 
 
-
+.barreFB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 20px;
+}
 
 
