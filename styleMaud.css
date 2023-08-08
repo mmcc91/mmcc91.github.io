@@ -71,10 +71,14 @@ footer {
     font-size: 56px;
 }
 
+.img{
+    padding: 10px;
+    border-radius: 24px;   
+}
 
 .Article {
-    background-color: rgb(203, 193, 203);
-    outline: 1px solid #a14082;
+    background-color: rgb(246, 242, 246);
+   
     padding: 10px;
     border-radius: 24px;
     font-family: "Lucida Handwriting", cursive;
@@ -91,7 +95,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin: 10px 0;
-    outline: 1px solid #000;
     border-radius: 25px;
     font-family: "Lucida Handwriting", cursive;
     font-size: 20px;
@@ -137,31 +140,31 @@ nav a:hover{
     padding: 15px;
     color: #562454;
     margin: 10px 0;
-    outline: 1px solid #000;
+   
     border-radius: 25px;
-    background: rgb(203, 193, 203);
+    background: rgb(246, 242, 246);
 }
 
 .presentationPageIndex {
     width: 300px;
     height: 500px;
     margin: 10px;
-    outline: 1px solid #000;
+   
     border-radius: 25px;
     padding: 15px;
     color: #562454;
     font-size: 25px;
-    background: rgb(203, 193, 203);
+    background: rgb(246, 242, 246);
 }
 
 .contactPageIndex {
     font-size: 25px;
     color: #562454;
     font-weight: bold;
-    outline: 1px solid #000;
+   
     padding: 25px;
     border-radius: 25px;
-    background: rgb(203, 193, 203);
+    background: rgb(246, 242, 246);
 }
 .box{
     background-color: rgb(203, 193, 203);
