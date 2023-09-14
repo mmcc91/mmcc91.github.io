@@ -1,6 +1,6 @@
 body {
   
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Helvetica',;
     font-size: 24px;
     text-align: center;
 }
@@ -78,10 +78,9 @@ footer {
 
 .Article {
     background-color: rgb(246, 242, 246);
-   
     padding: 10px;
     border-radius: 24px;
-    font-family: "Lucida Handwriting", cursive;
+    font-family: "bASKERVILLE",serif;
     color: rgb(26, 5, 22);
     box-sizing: border-box;
 }
